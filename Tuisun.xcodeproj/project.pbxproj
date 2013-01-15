@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		526132D016A53B4000892D0E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 526132CF16A53B4000892D0E /* UIKit.framework */; };
+		526132D216A53B4000892D0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 526132D116A53B4000892D0E /* Foundation.framework */; };
+		526132D416A53B4000892D0E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 526132D316A53B4000892D0E /* CoreGraphics.framework */; };
+		526132DA16A53B4000892D0E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 526132D816A53B4000892D0E /* InfoPlist.strings */; };
+		526132DC16A53B4000892D0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 526132DB16A53B4000892D0E /* main.m */; };
+		526132E016A53B4000892D0E /* QTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 526132DF16A53B4000892D0E /* QTAppDelegate.m */; };
+		526132E216A53B4000892D0E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 526132E116A53B4000892D0E /* Default.png */; };
+		526132E416A53B4000892D0E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 526132E316A53B4000892D0E /* Default@2x.png */; };
+		526132E616A53B4000892D0E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 526132E516A53B4000892D0E /* Default-568h@2x.png */; };
+		526132E916A53B4000892D0E /* QTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 526132E816A53B4000892D0E /* QTViewController.m */; };
+		526132EC16A53B4000892D0E /* QTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 526132EA16A53B4000892D0E /* QTViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		526132CB16A53B4000892D0E /* Tuisun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tuisun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		526132CF16A53B4000892D0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		526132D116A53B4000892D0E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		526132D316A53B4000892D0E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		526132D716A53B4000892D0E /* Tuisun-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tuisun-Info.plist"; sourceTree = "<group>"; };
+		526132D916A53B4000892D0E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		526132DB16A53B4000892D0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		526132DD16A53B4000892D0E /* Tuisun-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tuisun-Prefix.pch"; sourceTree = "<group>"; };
+		526132DE16A53B4000892D0E /* QTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QTAppDelegate.h; sourceTree = "<group>"; };
+		526132DF16A53B4000892D0E /* QTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTAppDelegate.m; sourceTree = "<group>"; };
+		526132E116A53B4000892D0E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		526132E316A53B4000892D0E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		526132E516A53B4000892D0E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		526132E716A53B4000892D0E /* QTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QTViewController.h; sourceTree = "<group>"; };
+		526132E816A53B4000892D0E /* QTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTViewController.m; sourceTree = "<group>"; };
+		526132EB16A53B4000892D0E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QTViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		526132C816A53B4000892D0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526132D016A53B4000892D0E /* UIKit.framework in Frameworks */,
+				526132D216A53B4000892D0E /* Foundation.framework in Frameworks */,
+				526132D416A53B4000892D0E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		526132C016A53B3F00892D0E = {
+			isa = PBXGroup;
+			children = (
+				526132D516A53B4000892D0E /* Tuisun */,
+				526132CE16A53B4000892D0E /* Frameworks */,
+				526132CC16A53B4000892D0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		526132CC16A53B4000892D0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				526132CB16A53B4000892D0E /* Tuisun.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		526132CE16A53B4000892D0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				526132CF16A53B4000892D0E /* UIKit.framework */,
+				526132D116A53B4000892D0E /* Foundation.framework */,
+				526132D316A53B4000892D0E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		526132D516A53B4000892D0E /* Tuisun */ = {
+			isa = PBXGroup;
+			children = (
+				526132DE16A53B4000892D0E /* QTAppDelegate.h */,
+				526132DF16A53B4000892D0E /* QTAppDelegate.m */,
+				526132E716A53B4000892D0E /* QTViewController.h */,
+				526132E816A53B4000892D0E /* QTViewController.m */,
+				526132EA16A53B4000892D0E /* QTViewController.xib */,
+				526132D616A53B4000892D0E /* Supporting Files */,
+			);
+			path = Tuisun;
+			sourceTree = "<group>";
+		};
+		526132D616A53B4000892D0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				526132D716A53B4000892D0E /* Tuisun-Info.plist */,
+				526132D816A53B4000892D0E /* InfoPlist.strings */,
+				526132DB16A53B4000892D0E /* main.m */,
+				526132DD16A53B4000892D0E /* Tuisun-Prefix.pch */,
+				526132E116A53B4000892D0E /* Default.png */,
+				526132E316A53B4000892D0E /* Default@2x.png */,
+				526132E516A53B4000892D0E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		526132CA16A53B4000892D0E /* Tuisun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 526132EF16A53B4000892D0E /* Build configuration list for PBXNativeTarget "Tuisun" */;
+			buildPhases = (
+				526132C716A53B4000892D0E /* Sources */,
+				526132C816A53B4000892D0E /* Frameworks */,
+				526132C916A53B4000892D0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tuisun;
+			productName = Tuisun;
+			productReference = 526132CB16A53B4000892D0E /* Tuisun.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		526132C216A53B3F00892D0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QT;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = yanghongqiang;
+			};
+			buildConfigurationList = 526132C516A53B3F00892D0E /* Build configuration list for PBXProject "Tuisun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 526132C016A53B3F00892D0E;
+			productRefGroup = 526132CC16A53B4000892D0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				526132CA16A53B4000892D0E /* Tuisun */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		526132C916A53B4000892D0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526132DA16A53B4000892D0E /* InfoPlist.strings in Resources */,
+				526132E216A53B4000892D0E /* Default.png in Resources */,
+				526132E416A53B4000892D0E /* Default@2x.png in Resources */,
+				526132E616A53B4000892D0E /* Default-568h@2x.png in Resources */,
+				526132EC16A53B4000892D0E /* QTViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		526132C716A53B4000892D0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526132DC16A53B4000892D0E /* main.m in Sources */,
+				526132E016A53B4000892D0E /* QTAppDelegate.m in Sources */,
+				526132E916A53B4000892D0E /* QTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		526132D816A53B4000892D0E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				526132D916A53B4000892D0E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		526132EA16A53B4000892D0E /* QTViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				526132EB16A53B4000892D0E /* en */,
+			);
+			name = QTViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		526132ED16A53B4000892D0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		526132EE16A53B4000892D0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		526132F016A53B4000892D0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tuisun/Tuisun-Prefix.pch";
+				INFOPLIST_FILE = "Tuisun/Tuisun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		526132F116A53B4000892D0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tuisun/Tuisun-Prefix.pch";
+				INFOPLIST_FILE = "Tuisun/Tuisun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		526132C516A53B3F00892D0E /* Build configuration list for PBXProject "Tuisun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526132ED16A53B4000892D0E /* Debug */,
+				526132EE16A53B4000892D0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		526132EF16A53B4000892D0E /* Build configuration list for PBXNativeTarget "Tuisun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526132F016A53B4000892D0E /* Debug */,
+				526132F116A53B4000892D0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 526132C216A53B3F00892D0E /* Project object */;
+}
