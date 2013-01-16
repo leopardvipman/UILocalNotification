@@ -21,14 +21,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		526132CB16A53B4000892D0E /* Tuisun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tuisun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		526132CB16A53B4000892D0E /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		526132CF16A53B4000892D0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		526132D116A53B4000892D0E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		526132D316A53B4000892D0E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		526132D716A53B4000892D0E /* Tuisun-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tuisun-Info.plist"; sourceTree = "<group>"; };
+		526132D716A53B4000892D0E /* test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "test-Info.plist"; sourceTree = "<group>"; };
 		526132D916A53B4000892D0E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		526132DB16A53B4000892D0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		526132DD16A53B4000892D0E /* Tuisun-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tuisun-Prefix.pch"; sourceTree = "<group>"; };
+		526132DD16A53B4000892D0E /* test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "test-Prefix.pch"; sourceTree = "<group>"; };
 		526132DE16A53B4000892D0E /* QTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QTAppDelegate.h; sourceTree = "<group>"; };
 		526132DF16A53B4000892D0E /* QTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTAppDelegate.m; sourceTree = "<group>"; };
 		526132E116A53B4000892D0E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 		526132CC16A53B4000892D0E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				526132CB16A53B4000892D0E /* Tuisun.app */,
+				526132CB16A53B4000892D0E /* test.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,10 +96,10 @@
 		526132D616A53B4000892D0E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				526132D716A53B4000892D0E /* Tuisun-Info.plist */,
+				526132D716A53B4000892D0E /* test-Info.plist */,
 				526132D816A53B4000892D0E /* InfoPlist.strings */,
 				526132DB16A53B4000892D0E /* main.m */,
-				526132DD16A53B4000892D0E /* Tuisun-Prefix.pch */,
+				526132DD16A53B4000892D0E /* test-Prefix.pch */,
 				526132E116A53B4000892D0E /* Default.png */,
 				526132E316A53B4000892D0E /* Default@2x.png */,
 				526132E516A53B4000892D0E /* Default-568h@2x.png */,
@@ -110,9 +110,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		526132CA16A53B4000892D0E /* Tuisun */ = {
+		526132CA16A53B4000892D0E /* test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 526132EF16A53B4000892D0E /* Build configuration list for PBXNativeTarget "Tuisun" */;
+			buildConfigurationList = 526132EF16A53B4000892D0E /* Build configuration list for PBXNativeTarget "test" */;
 			buildPhases = (
 				526132C716A53B4000892D0E /* Sources */,
 				526132C816A53B4000892D0E /* Frameworks */,
@@ -122,9 +122,9 @@
 			);
 			dependencies = (
 			);
-			name = Tuisun;
+			name = test;
 			productName = Tuisun;
-			productReference = 526132CB16A53B4000892D0E /* Tuisun.app */;
+			productReference = 526132CB16A53B4000892D0E /* test.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -137,7 +137,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = yanghongqiang;
 			};
-			buildConfigurationList = 526132C516A53B3F00892D0E /* Build configuration list for PBXProject "Tuisun" */;
+			buildConfigurationList = 526132C516A53B3F00892D0E /* Build configuration list for PBXProject "test" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -149,7 +149,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				526132CA16A53B4000892D0E /* Tuisun */,
+				526132CA16A53B4000892D0E /* test */,
 			);
 		};
 /* End PBXProject section */
@@ -211,7 +211,8 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lepeng Li (HSB24C6D8R)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lepeng Li (HSB24C6D8R)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -226,6 +227,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "A329FD90-F0BF-47F3-A949-43DC8A5BCFD3";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A329FD90-F0BF-47F3-A949-43DC8A5BCFD3";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -239,7 +242,8 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lepeng Li (HSB24C6D8R)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lepeng Li (HSB24C6D8R)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -247,6 +251,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "A329FD90-F0BF-47F3-A949-43DC8A5BCFD3";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A329FD90-F0BF-47F3-A949-43DC8A5BCFD3";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -256,9 +262,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tuisun/Tuisun-Prefix.pch";
-				INFOPLIST_FILE = "Tuisun/Tuisun-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Tuisun/test-Prefix.pch";
+				INFOPLIST_FILE = "Tuisun/test-Info.plist";
+				PRODUCT_NAME = test;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -267,9 +273,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tuisun/Tuisun-Prefix.pch";
-				INFOPLIST_FILE = "Tuisun/Tuisun-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Tuisun/test-Prefix.pch";
+				INFOPLIST_FILE = "Tuisun/test-Info.plist";
+				PRODUCT_NAME = test;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -277,7 +283,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		526132C516A53B3F00892D0E /* Build configuration list for PBXProject "Tuisun" */ = {
+		526132C516A53B3F00892D0E /* Build configuration list for PBXProject "test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				526132ED16A53B4000892D0E /* Debug */,
@@ -286,13 +292,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		526132EF16A53B4000892D0E /* Build configuration list for PBXNativeTarget "Tuisun" */ = {
+		526132EF16A53B4000892D0E /* Build configuration list for PBXNativeTarget "test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				526132F016A53B4000892D0E /* Debug */,
 				526132F116A53B4000892D0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
